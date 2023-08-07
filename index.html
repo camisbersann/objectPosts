@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="assets/css/stlye.index.css">
 </head>
 <body>
-    <h1>Próximos Posts</h1>
+    <main>
+     <h1>Próximos Posts</h1>
 
-    <div id="postForm"> 
+     <div id="postForm"> 
         <div>
             <label for="title">Título</label>
             <input type="text" id="title" name="title" required>
@@ -28,9 +29,10 @@
             <input type="date" id="date" name="date" required>
         </div>
 
-        <button>Cadastrar</button>
-    </div>
+        <button onclick="savePost()">Cadastrar</button>
+     </div>
 
-    <div id="list"></div>
+     <div id="list"></div>
+    </main>
 </body>
 </html>
